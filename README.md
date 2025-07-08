@@ -1,6 +1,10 @@
 # Spotify to YouTube Music Migration Tool
 
-A research project exploring automated playlist migration between music streaming platforms using reverse engineering techniques.
+## TL;DR
+- **This repo is a research/learning attempt to make the original [linsomniac/spotify_to_ytmusic](https://github.com/linsomniac/spotify_to_ytmusic) work for migrating Spotify playlists to YouTube Music.**
+- The original project seemed like a great solution for playlist migration, but in practice, technical barriers (mainly YouTube Music authentication and API instability) made reliable, large-scale migration unfeasible.
+- This repo documents the process, technical challenges, and learnings—explaining what works, what doesn't, and why.
+- If you're looking for a guaranteed, robust migration tool, **this is not it**—but if you want to understand the real-world obstacles and learn from the attempt, read on.
 
 ## Project Overview
 
