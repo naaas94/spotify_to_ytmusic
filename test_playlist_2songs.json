@@ -1,0 +1,35 @@
+{
+  "playlists": [
+    {
+      "id": "test_2_songs_playlist",
+      "name": "TEST 2 SONGS",
+      "lastModifiedDate": "2025-05-26",
+      "tracks": [
+        {
+          "track": {
+            "name": "El Linyera",
+            "artists": [{"name": "Flema"}],
+            "album": {"name": "El Exceso Y / O Abuso de Drogas y Alcohol Es Perjudicial para Tu Salud... ¡cuídate, Nadie Lo Hará por Vos!"},
+            "trackUri": "spotify:track:7aaux2JDvWvdUfrEZTmWEA"
+          },
+          "episode": null,
+          "audiobook": null,
+          "localTrack": null,
+          "addedDate": "2025-05-14"
+        },
+        {
+          "track": {
+            "name": "Mind Mischief",
+            "artists": [{"name": "Tame Impala"}],
+            "album": {"name": "Lonerism"},
+            "trackUri": "spotify:track:6ewQE1dNPv9qqlnB1CxrvM"
+          },
+          "episode": null,
+          "audiobook": null,
+          "localTrack": null,
+          "addedDate": "2025-05-14"
+        }
+      ]
+    }
+  ]
+} 

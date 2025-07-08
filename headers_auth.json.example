@@ -1,0 +1,4 @@
+{
+  "authorization": "YOUR_AUTHORIZATION_HEADER_HERE",
+  "cookie": "YOUR_COOKIE_HERE"
+} 

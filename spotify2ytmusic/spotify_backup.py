@@ -194,7 +194,7 @@ def main(dump="playlists,liked", format="json", file="playlists.json", token="")
         SpotifyAPI(token)
         if token
         else SpotifyAPI.authorize(
-            client_id="5c098bcc800e45d49e476265bc9b6934",
+            client_id="d3b96f46d3d04e828c9ab2da0c0d1506",
             scope="playlist-read-private playlist-read-collaborative user-library-read",
         )
     )

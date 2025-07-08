@@ -8,7 +8,8 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-ytmusicapi = "*"
+ytmusicapi = "^1.9.1"
+requests = "^2.32.3"
 
 [build-system]
 requires = ["poetry-core"]
