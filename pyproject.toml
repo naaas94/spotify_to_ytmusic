@@ -1,15 +1,32 @@
 [tool.poetry]
 name = "spotify2ytmusic"
 version = "0.1.0"
-description = "Copy Spotify playlists to YTMusic/YouTube Music"
+description = "Research project exploring automated playlist migration between Spotify and YouTube Music using reverse engineering techniques"
 authors = ["Sean Reifschneider <jafo00@gmail.com>"]
 license = "Creative Commons Zero v1.0 Universal"
 readme = "README.md"
+keywords = ["spotify", "youtube-music", "playlist", "migration", "reverse-engineering"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Multimedia :: Sound/Audio",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
 ytmusicapi = "^1.9.1"
 requests = "^2.32.3"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0.0"
+black = "^23.0.0"
+flake8 = "^6.0.0"
 
 [build-system]
 requires = ["poetry-core"]
@@ -35,9 +52,19 @@ license = "CC0-1.0"
 
 [tool.briefcase.app.spotify2ytmusic]
 formal_name = "Spotify2YTMusic"
-description = "A tool for helping to convert Spotify playlists to YouTube Music"
+description = "A research tool for exploring automated playlist migration between music streaming platforms"
 sources = ['spotify2ytmusic']
 requires = [
   'ytmusicapi',
   'tk',
 ]
+
+[tool.black]
+line-length = 88
+target-version = ['py310']
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]

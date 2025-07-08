@@ -1,3 +1,9 @@
+---
+noteId: "e53b7d805c4711f083a52dcd4d594e42"
+tags: []
+
+---
+
 # Spotify to YouTube Music Migration Tool
 
 A fast, optimized tool for migrating your Spotify playlists and liked songs to YouTube Music.
@@ -17,7 +23,7 @@ A fast, optimized tool for migrating your Spotify playlists and liked songs to Y
 ### 1. Installation
 
 ```bash
-git clone https://github.com/linsomniac/spotify_to_ytmusic.git
+git clone https://github.com/naaas94/spotify_to_ytmusic.git
 cd spotify_to_ytmusic
 python -m venv .venv
 .venv\Scripts\activate  # Windows
